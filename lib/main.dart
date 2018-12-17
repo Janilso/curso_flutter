@@ -12,15 +12,21 @@ void main() {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              FlatButton(
-                child: Text("+1",
-                    style: TextStyle(color: Colors.white, fontSize: 30.0)),
-                onPressed: () {}, // Função a ser chamada
+              Padding(
+                padding: EdgeInsets.all(10.0),
+                child: FlatButton(
+                  child: Text("+1",
+                      style: TextStyle(color: Colors.white, fontSize: 30.0)),
+                  onPressed: () {}, // Função a ser chamada
+                ),
               ),
-              FlatButton(
-                child: Text("-1",
-                    style: TextStyle(color: Colors.white, fontSize: 30.0)),
-                onPressed: () {}, // Função a ser chamada
+              Padding(
+                padding: EdgeInsets.all(10.0),
+                child: FlatButton(
+                  child: Text("-1",
+                      style: TextStyle(color: Colors.white, fontSize: 30.0)),
+                  onPressed: () {}, // Função a ser chamada
+                ),
               ),
             ],
           ),
